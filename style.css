@@ -1,26 +1,27 @@
-.heading{
-    text-align: center;
-    color:white;
-    width:100%;
+body{
+    background-size:cover;
+    background-position:center;
 }
 
-hr{
-    border-top:5px solid black;
-    width:50%;
+.heading
+{
+font-size: 30px;
+width: 100%;
+margin: 0px;
+background:orange;
+padding:10px;
+color:white;
+
 }
 
-#label{
-    text-align:center;
-}
-
-.main-body{
-   text-align;
-}
-
-start-btn{
-text-align:center;
+#status, #start_model, #object_detection 
+{
+    font-size: 18px;
 }
 
 canvas{
-    border:4px dashed black;
+    border:3px dashed blue;
+    border-radius:15px;
+    box-shadow:10px 10px 12px grey;
+    margin-top:30px;
 }
